@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.texto-inicio{
+    color: rgb(84, 134, 5);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.trabajo-1{
+    color: rgb(9, 140, 180);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.trabajo-2{
+    color: rgb(247, 179, 116);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.trabajo-3{
+    color: rgb(247, 184, 116);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.texto-descripcion{
+    color: black;
+    font-family: Montserrat; 
+    text-align: justify;
+    font-size: 12px;
+}
+.texto-informativo{
+    color: black;
+    font-family: Montserrat; 
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/* navegador */
+
+.navegador{
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    text-decoration: none;
+    justify-content: end;
+}
+.logo-navegador{
+    height: 80px;
+ 
+}
+
+.navegador-links{
+    display: flex;
+    gap: 20px 5px;
+    list-style: none;
+    font-family: Montserrat;
+    display: flex;
+    padding: 20px 5px;
+    text-decoration:none;
+}
+
+.navegador-links li{
+    list-style: none;
+    font-family: Montserrat;
+    display: flex;
+    padding: 20px 5px;
+    text-decoration: none;
+
+}
+
+/* footer */
+
+.link{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: montserrat;
+    padding: 10px;
+    color: #8a5186;
+}
+
+
+.pie-de-pagina{
+    background-color: rgb(248, 140, 8);
+    font-family: Montserrat;
+    text-align: center;
+    color: rgb(6, 6, 6);
+}
+.portada-texto-imagen{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portada-imagen{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Video nosotros */
+
+.video-ploteo{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+
+}
+.parrafo-video{
+    color: cadetblue;
+    font-family: Montserrat;
+    text-align: justify;
+    font-size: 12px;
+}
+
+
+.caja-rotulacion-vehicular{
+    background-color: burlywood;
+    width: 500px;
+    height: 340px;
+    border: 5px rgb(233, 198, 139) solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.caja-carteleria{
+    background-color: cadetblue;
+    height: 340px;
+    width: 500px;
+    border: 5px rgb(56, 165, 154) solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.imagen-rotulacion-vehicular{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.texto-mensaje{
+    font-family: Montserrat;
+}
+.texto-formulario{
+    margin: 10px;
+
+}
+.boton-enviar{
+    width: 80px;
+    height: 40;
+    background-color: black;
+    color: darkgrey;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 10px;
+    position: absolute;
+    bottom: -20px
+}
+.cajas-inicio{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.imagen-carteleria{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.boton-vermas{
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 33, 61);
+    font-family: Montserrat;
+    position: relative;
+    right: -200px;
+    bottom: -10px;
+
+}
+.imagen-corporeas{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.caja-coporeas{
+    background-color: rgb(148, 95, 160);
+    height: 340px;
+    width: 500px;
+    border: 5px #8a5186 solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.tarejetas-horizontales1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.tarjeta-banner{
+    background-color: rgb(119, 160, 95);
+    height: 340px;
+    width: 780px;
+    border: 5px #69985b solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.tarjeta-banderas{
+    background-color: rgb(116, 213, 207);
+    height: 340px;
+    width: 780px;
+    border: 5px #72c7c9 solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.imagen-banner{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.imagen-bandera{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.tarejetas-horizontales2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.tarjeta-publicidad{
+    background-color: rgb(213, 182, 116);
+    height: 340px;
+    width: 780px;
+    border: 5px #c9af49 solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.tarjeta-stand{
+    background-color: rgb(236, 85, 85);
+    height: 340px;
+    width: 780px;
+    border: 5px #d93c3c solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.imagen-publicidad{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.tarjeta-texto{
+    color: black;
+    font-family: Montserrat; 
+    text-align: justify;
+    font-size: 12px;
+}
+.tajeta-pulicidad{
+    color: rgb(59, 101, 55);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.tarjeta-banners{
+    color: rgb(23, 69, 6);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.tarjeta-banderas{
+    color: rgb(107, 125, 190);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.tajeta-stad{
+    color: rgb(68, 5, 5);
+    font-family: Montserrat; 
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(249, 249, 249);
+    font-size: 30px;
+    font-family: Montserrat;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    position: static;
+}
+.galeria img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* galeria de fotos */
+
+.galeria{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(12,150px);
+    grid-template-areas: "img1 img1 img2 img2 img3 img3"
+                         "img1 img1 img2 img2 img3 img3"
+                         "img1 img1 img2 img2 img3 img3"
+                         "img1 img1 img2 img2 img3 img3"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img7 img7 img7 img8 img8 img8"
+                         "img7 img7 img7 img8 img8 img8"
+                         "img7 img7 img7 img8 img8 img8"
+                         "img7 img7 img7 img8 img8 img8";
+}
+
+.nosotros1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+
+/* formulario-contactos */
+
+.formulario-contacto{
+    background-color: #72c7c9;
+    width: 400px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.formulario-contacto-grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.formulario-contacto-grupo-label{
+    color: black;
+    font-family: montserrat;
+}
+
+.formulario-contacto-grupo-imput{
+    width: 90%;
+    background-color: transparent;
+    font-family: montserrat;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.formulario-contacto-grupo-imput::placeholder{
+    color: rgb(49, 43, 43);
+}
+.formulario-contacto-grupo-imput::focus{
+    border-color: 3px solid black;
+    outline: none;
+}
+
+.boton-formulario{
+    width: 95%;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px 5px;
+    color: #267156;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* opciones */
+.opciones-opcion{
+    height: 10px;
+    padding: 40px;
+    font-family: montserrat;
+    color: rgb(2, 2, 2);
+    font-size: 5%;
+    background: #f3ff12;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 5px #000000 solid
+    }
+    
+.opciones{
+    margin: 30px 0px;
+}
+
+/* Media Query  */
+
+
+
+@media(max-width: 445px){
+    .titulo{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 992px){
+    .cajas-inicio{
+        width: 100%;
+        padding: 5px;
+    }
+}
