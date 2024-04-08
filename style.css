@@ -48,7 +48,8 @@
     height: 80px;
     display: flex;
     text-decoration: none;
-    justify-content: end;
+    z-index: 10;
+    justify-content: space-around;
 }
 .logo-navegador{
     height: 80px;
@@ -127,20 +128,18 @@
 .caja-rotulacion-vehicular{
     background-color: burlywood;
     width: 500px;
-    height: 340px;
     border: 5px rgb(233, 198, 139) solid;
     border-radius: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     overflow: auto;
 }
 .caja-carteleria{
     background-color: cadetblue;
-    height: 340px;
     width: 500px;
     border: 5px rgb(56, 165, 154) solid;
     border-radius: 5px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     overflow: auto;
 }
@@ -196,12 +195,11 @@
 }
 .caja-coporeas{
     background-color: rgb(148, 95, 160);
-    height: 340px;
     width: 500px;
     border: 5px #8a5186 solid;
     border-radius: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     overflow: auto;
 }
 .tarejetas-horizontales1{
@@ -211,22 +209,20 @@
 }
 .tarjeta-banner{
     background-color: rgb(119, 160, 95);
-    height: 340px;
     width: 780px;
     border: 5px #69985b solid;
     border-radius: 5px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     overflow: auto;
 }
 .tarjeta-banderas{
     background-color: rgb(116, 213, 207);
-    height: 340px;
     width: 780px;
     border: 5px #72c7c9 solid;
     border-radius: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     overflow: auto;
 }
 
@@ -247,22 +243,20 @@
 }
 .tarjeta-publicidad{
     background-color: rgb(213, 182, 116);
-    height: 340px;
     width: 780px;
     border: 5px #c9af49 solid;
     border-radius: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     overflow: auto;
 }
 .tarjeta-stand{
     background-color: rgb(236, 85, 85);
-    height: 340px;
     width: 780px;
     border: 5px #d93c3c solid;
     border-radius: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     overflow: auto;
 }
 .imagen-publicidad{
@@ -416,8 +410,7 @@
 
 /* opciones */
 .opciones-opcion{
-    height: 10px;
-    padding: 40px;
+    padding: 15px;
     font-family: montserrat;
     color: rgb(2, 2, 2);
     font-size: 5%;
