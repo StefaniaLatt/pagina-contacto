@@ -1,0 +1,155 @@
+.caja-rotulacion-vehicular{
+    background-color: burlywood;
+    width: 500px;
+    border: 5px rgb(233, 198, 139) solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    overflow: auto;
+}
+.caja-carteleria{
+    background-color: cadetblue;
+    width: 500px;
+    border: 5px rgb(56, 165, 154) solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    overflow: auto;
+}
+.imagen-rotulacion-vehicular{
+    width: 100%;
+    object-fit: cover;
+}
+
+.texto-mensaje{
+    font-family: Montserrat;
+}
+.texto-formulario{
+    margin: 10px;
+}
+.cajas-inicio{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.imagen-carteleria{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.boton-vermas{
+    @extend %boton;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 33, 61);
+    font-family: Montserrat;
+    right: 10px;
+    bottom: -20px;
+}
+
+.imagen-corporeas{
+    width: 100%;
+    object-fit: cover;
+}
+.caja-coporeas{
+    background-color: rgb(148, 95, 160);
+    width: 500px;
+    border: 5px #8a5186 solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    overflow: auto;
+}
+.tarejetas-horizontales1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.tarjeta-banner{
+    background-color: rgb(119, 160, 95);
+    width: 780px;
+    border: 5px #69985b solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    overflow: auto;
+}
+.tarjeta-banderas{
+    background-color: rgb(116, 213, 207);
+    width: 780px;
+    border: 5px #72c7c9 solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    overflow: auto;
+}
+
+.imagen-banner{
+    width: 100%;
+    object-fit: cover;
+}
+.imagen-bandera{
+    width: 100%;
+    object-fit: cover;
+}
+.tarejetas-horizontales2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.tarjeta-publicidad{
+    background-color: rgb(213, 182, 116);
+    width: 780px;
+    border: 5px #c9af49 solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    overflow: auto;
+}
+.tarjeta-stand{
+    background-color: rgb(236, 85, 85);
+    width: 780px;
+    border: 5px #d93c3c solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    overflow: auto;
+}
+.imagen-publicidad{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.tarjeta-texto{
+    color: black;
+    font-family: Montserrat; 
+    text-align: justify;
+    font-size: 12px;
+}
+.tajeta-pulicidad{
+    color: rgb(59, 101, 55);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.tarjeta-banners{
+    color: rgb(23, 69, 6);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.tarjeta-banderas{
+    color: rgb(107, 125, 190);
+    font-family: Montserrat; 
+    text-align: center;
+}
+.tajeta-stad{
+    color: rgb(68, 5, 5);
+    font-family: Montserrat; 
+    text-align: center;
+}
+
+@media(max-width: 992px){
+    .cajas-inicio{
+        width: 100%;
+        padding: 5px;
+    }
+}

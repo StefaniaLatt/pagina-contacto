@@ -1,0 +1,54 @@
+.galeria{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(12,150px);
+    grid-template-areas: "img1 img1 img2 img2 img3 img3"
+                         "img1 img1 img2 img2 img3 img3"
+                         "img1 img1 img2 img2 img3 img3"
+                         "img1 img1 img2 img2 img3 img3"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img4 img4 img5 img5 img6 img6"
+                         "img7 img7 img7 img8 img8 img8"
+                         "img7 img7 img7 img8 img8 img8"
+                         "img7 img7 img7 img8 img8 img8"
+                         "img7 img7 img7 img8 img8 img8";
+                         
+}
+
+
+.nosotros1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+
+.galeria img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
