@@ -6,6 +6,7 @@
     margin: 10px;
     padding: 15px;
     overflow: auto;
+    text-align: center;
 }
 .caja-carteleria{
     background-color: cadetblue;
@@ -15,11 +16,10 @@
     margin: 15px;
     padding: 10px;
     overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
-.imagen-rotulacion-vehicular{
-    width: 100%;
-    object-fit: cover;
-}
+
 
 .texto-mensaje{
     font-family: Montserrat;
@@ -34,23 +34,18 @@
 }
 .imagen-carteleria{
     width: 100%;
+    height: 300px;
     object-fit: cover;
 }
 
 
 .boton-vermas{
-    @extend %boton;
     background-color: rgb(255, 255, 255);
     color: rgb(1, 33, 61);
     font-family: Montserrat;
-    right: 10px;
-    bottom: -20px;
+    margin-top: 10px;
 }
 
-.imagen-corporeas{
-    width: 100%;
-    object-fit: cover;
-}
 .caja-coporeas{
     background-color: rgb(148, 95, 160);
     width: 500px;
@@ -59,6 +54,8 @@
     margin: 10px;
     padding: 15px;
     overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
 .tarejetas-horizontales1{
     display: flex;
@@ -73,6 +70,8 @@
     margin: 15px;
     padding: 10px;
     overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
 .tarjeta-banderas{
     background-color: rgb(116, 213, 207);
@@ -82,16 +81,16 @@
     margin: 10px;
     padding: 15px;
     overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
 
 .imagen-banner{
     width: 100%;
+    height: 300px;
     object-fit: cover;
 }
-.imagen-bandera{
-    width: 100%;
-    object-fit: cover;
-}
+
 .tarejetas-horizontales2{
     display: flex;
     justify-content: center;
@@ -105,6 +104,8 @@
     margin: 10px;
     padding: 15px;
     overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
 .tarjeta-stand{
     background-color: rgb(236, 85, 85);
@@ -114,12 +115,10 @@
     margin: 10px;
     padding: 15px;
     overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
-.imagen-publicidad{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
+
 .tarjeta-texto{
     color: black;
     font-family: Montserrat; 
