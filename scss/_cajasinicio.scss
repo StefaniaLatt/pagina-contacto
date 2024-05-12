@@ -18,6 +18,7 @@
     overflow: auto;
     text-align: center;
     padding: 10px;
+    
 }
 
 
@@ -31,6 +32,7 @@
     display: flex;
     justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 .imagen-carteleria{
     width: 100%;
