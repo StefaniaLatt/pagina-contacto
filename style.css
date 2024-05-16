@@ -4,10 +4,11 @@
 }
 
 .texto-inicio {
-  color: rgb(84, 134, 5);
+  color: rgb(255, 255, 255);
   font-family: Montserrat;
   text-align: center;
   margin-top: 10px;
+  background-color: black;
 }
 
 /* navegador */
@@ -21,10 +22,13 @@
   text-decoration: none;
   z-index: 10;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo-navegador {
   height: 80px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navegador-links {
@@ -35,6 +39,7 @@
   display: flex;
   padding: 20px 5px;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .navegador-links li {
@@ -43,8 +48,17 @@
   display: flex;
   padding: 20px 5px;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
+@media (max-whidth: 592px) {
+  .navegador-links li {
+    font-size: 20px;
+  }
+  .logo-navegador {
+    height: 20px;
+  }
+}
 .trabajo-1 {
   color: rgb(9, 140, 180);
   font-family: Montserrat;
@@ -71,7 +85,7 @@
 }
 
 .texto-informativo {
-  color: rgb(0, 0, 0);
+  color: rgb(39, 97, 5);
   font-family: Montserrat;
   text-align: center;
   font-size: 15px;
@@ -88,7 +102,6 @@
 
 .texto {
   text-align: center;
-  padding: 5px;
   margin: 10px;
 }
 
@@ -97,7 +110,6 @@
   font-family: Montserrat;
   text-align: center;
   color: rgb(255, 255, 255);
-  display: flex;
   flex-direction: column;
   justify-items: space-around;
 }
@@ -107,12 +119,15 @@
   background-color: aliceblue;
   color: black;
   text-decoration: none;
-  text-align: center;
   padding: 20px;
   font-size: 30px;
   width: 10px;
+  height: 10px;
   text-align: center;
   margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-twitter {
@@ -123,8 +138,11 @@
   padding: 20px;
   font-size: 30px;
   width: 10px;
-  text-align: center;
+  height: 10px;
   margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-instagram {
@@ -135,8 +153,11 @@
   padding: 20px;
   font-size: 30px;
   width: 10px;
-  text-align: center;
+  height: 10px;
   margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .fa-whatsapp {
@@ -145,19 +166,48 @@
   color: black;
   text-decoration: none;
   padding: 20px;
-  font-size: 50%;
   width: 10px;
+  height: 10px;
   text-align: center;
-  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-animacion {
+  width: 100px;
+}
+
+.animacion-iso {
+  transform-style: preserve-3d;
+  animation-iteration-count: infinite;
+  margin: auto;
+  transition: 1s;
+}
+.animacion-iso:hover {
+  transform: rotateZ(360deg);
+}
+
+.redes-sociales {
+  background-color: rgb(3, 163, 217);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.fa {
+  align-items: center;
 }
 
 .video-ploteo {
-  width: 700px;
-  height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-flow: row;
 }
 
 .caja-rotulacion-vehicular {
@@ -195,6 +245,7 @@
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .imagen-carteleria {
@@ -364,6 +415,7 @@
 
 .galeria {
   width: 80%;
+  flex-wrap: wrap;
   margin: auto;
   padding: 50px;
   display: grid;
@@ -419,10 +471,11 @@
   padding: 20px;
   border-radius: 5px;
   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .formulario-contacto-grupo {
-  display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 10px 0px;

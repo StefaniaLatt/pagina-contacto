@@ -8,7 +8,6 @@
 
 .texto{
 text-align: center;
-    padding: 5px;
     margin: 10px;
 
 }
@@ -17,7 +16,6 @@ text-align: center;
     font-family: Montserrat;
     text-align: center;
     color: rgb(255, 255, 255);
-    display: flex;
     flex-direction: column;
     justify-items: space-around;
 
@@ -29,12 +27,15 @@ text-align: center;
     background-color: aliceblue;
     color: black;
     text-decoration: none;
-    text-align: center;
     padding: 20px;
     font-size: 30px;
     width: 10px;
+    height: 10px;
     text-align: center;
     margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa-twitter{
@@ -45,8 +46,11 @@ text-align: center;
     padding: 20px;
     font-size: 30px;
     width: 10px;
-    text-align: center;
+    height: 10px;
     margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa-instagram{
@@ -57,8 +61,11 @@ text-align: center;
     padding: 20px;
     font-size: 30px;
     width: 10px;
-    text-align: center;
+    height: 10px;
     margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 
 }
 
@@ -68,9 +75,36 @@ text-align: center;
     color: black;
     text-decoration: none;
     padding: 20px;
-    font-size: 50%;
     width: 10px;
+    height: 10px;
     text-align: center;
-    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-animacion{
+    width: 100px;
 
 }
+.animacion-iso{
+    transform-style: preserve-3d;
+    animation-iteration-count: infinite;
+    margin: auto;
+    transition: 1s;
+    &:hover{
+        transform: rotateZ(360deg)
+    }
+    }
+
+    .redes-sociales{
+        background-color: rgb(3, 163, 217);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .fa{
+        align-items: center;
+    }

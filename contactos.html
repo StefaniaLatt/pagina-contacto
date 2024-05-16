@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./imagenes/isocontacto-01.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="navegador">
-        <img src="./imagenes/logocontacto-01.png" alt="">
-        <ul class="navegador-links" id="navegador">
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./contactos.html">Contactos</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-        </ul>   
-    </nav>
+        <div>
+           <img class="logo-navegador" src="./imagenes/logocontacto-01.png" alt="">
+        </div>
+         <ul class="navegador-links">
+             <li><a href="./index.html">Inicio</a></li>
+             <li><a href="./contactos.html">Contactos</a></li>
+             <li><a href="./nosotros.html">Nosotros</a></li>
+         </ul>   
+     </nav>
     <header>
         <h1 class="titulo">Contactos</h1>
     </header>
     <main>
-        <form class="formulario-contacto" action="">
+        <form class="formulario-contacto" data-aos="fade-up">
             <div class="formulario-contacto-grupo">
                 <label class="formulario-contacto-grupo-label" for="nombre">Nombre</label>
                 <input id="nombre" class="formulario-contacto-grupo-imput" type="text" placeholder="Ingrese su nombre"> 
@@ -47,6 +50,9 @@
         </form>
     </main>
     <footer class="pie-de-pagina">
+        <div class="animacion-iso">
+            <img class="imagen-animacion" src="./imagenes/isocontacto-blanco-01.png" alt="">
+        </div>
         <div class="texto">
             <p>Lamadrid 110  /  San Nicolas de Los Arroyos - Prov. Bs. As.</p>
         </div>
@@ -62,6 +68,11 @@
             <a href="#" class="fa fa-whatsapp"></a>
         </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1400
+        });
+      </script>
 </body>
 </html>

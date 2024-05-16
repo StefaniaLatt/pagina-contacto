@@ -1,8 +1,8 @@
 .video-ploteo{
-    width: 700px;
-    height: 500px;
     object-fit: cover;
     margin: auto;
     display: flex; 
-
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row;
 }

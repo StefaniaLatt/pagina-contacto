@@ -11,9 +11,12 @@
     z-index: 10;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 .logo-navegador{
     height: 80px;
+    display: flex;
+    flex-wrap: wrap;
  
 }
 
@@ -25,6 +28,7 @@
     display: flex;
     padding: 20px 5px;
     text-decoration:none;
+    flex-wrap: wrap;
 }
 
 .navegador-links li{
@@ -33,5 +37,15 @@
     display: flex;
     padding: 20px 5px;
     text-decoration: none;
+    flex-wrap: wrap;
 
+}
+
+@media (max-whidth: 592px){
+    .navegador-links li{
+        font-size: 20px;
+    }
+    .logo-navegador{
+        height: 20px;
+    }
 }
