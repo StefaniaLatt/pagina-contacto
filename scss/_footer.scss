@@ -4,18 +4,20 @@
     font-family: montserrat;
     padding: 10px;
     color: #8a5186;
+    text-align: center;
 }
 
 .texto{
 text-align: center;
+    padding: 5px;
     margin: 10px;
-
 }
 .pie-de-pagina{
     background-color: rgb(0, 0, 0);
     font-family: Montserrat;
     text-align: center;
     color: rgb(255, 255, 255);
+    display: flex;
     flex-direction: column;
     justify-items: space-around;
 
@@ -24,87 +26,49 @@ text-align: center;
 
 .fa-facebook{
     border-radius: 50%;
+    height: 40px;
     background-color: aliceblue;
     color: black;
     text-decoration: none;
     padding: 20px;
-    font-size: 30px;
     width: 10px;
-    height: 10px;
-    text-align: center;
-    margin: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 10px;
 }
 
 .fa-twitter{
     border-radius: 50%;
+    height: 40px;
     background-color: aliceblue;
     color: black;
     text-decoration: none;
     padding: 20px;
-    font-size: 30px;
     width: 10px;
-    height: 10px;
-    margin: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 10px;
 }
 
 .fa-instagram{
     border-radius: 50%;
+    height: 40px;
     background-color: aliceblue;
     color: black;
     text-decoration: none;
     padding: 20px;
-    font-size: 30px;
     width: 10px;
-    height: 10px;
-    margin: 25px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-
+    margin-right: 10px;
 }
 
 .fa-whatsapp{
     border-radius: 50%;
+    height: 40px;
     background-color: aliceblue;
     color: black;
     text-decoration: none;
     padding: 20px;
     width: 10px;
-    height: 10px;
+    margin-right: 10px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.imagen-animacion{
-    width: 100px;
-
+.iso-footer{
+    height: 150px;
 }
-.animacion-iso{
-    transform-style: preserve-3d;
-    animation-iteration-count: infinite;
-    margin: auto;
-    transition: 1s;
-    &:hover{
-        transform: rotateZ(360deg)
-    }
-    }
-
-    .redes-sociales{
-        background-color: rgb(3, 163, 217);
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-
-    .fa{
-        align-items: center;
-    }
